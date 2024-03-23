@@ -1,0 +1,494 @@
+.container{
+    position: relative;
+}
+.img-descriptionss{
+    position: fixed;
+    width: 650px;
+    height: 650px;
+    background-color: rgb(167, 164, 164);
+    top: 0;
+    left: 400px;
+    z-index: 200;
+    opacity: 0.80;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+    
+}
+.open-popup{
+    position: fixed;
+    width: 650px;
+    height: 650px;
+    background-color: rgb(167, 164, 164);
+    top: 50px;
+    left: 400px;
+    z-index: 200;
+    opacity: 0.80;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    
+}
+.img-descriptionss img{
+    width: 500px;
+}
+.img-descriptionss p{
+    color: black;
+    margin-top: 10px;
+}
+.icom-x{
+    position: absolute;
+    z-index: 1000;
+    right: 16px;
+    top: 15px;
+
+}
+.icom-x img{
+    width: 24px;
+    
+}
+
+.img-textx{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+
+body{
+    background-color: #3C1C1C;
+}
+.popular-places-in-makati img{
+    position: relative;
+}
+
+.popular-places-in-makati{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.popular-places-in-makati h1{
+    font-size: 60px;
+    color: rgb(226, 156, 115);
+    margin-bottom: 27px;
+}
+
+.popular-places-in-makati-imgs{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 15px;
+}
+
+.popular-places-in-makati-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 14px;
+}
+.popular-places-in-makati-imgs img{
+    width: 700px;
+}
+.pic-onep-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.popular-places-in-makati-imgs-two{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pic-onep{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pic-oneps{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pic-onep img{
+    width: 278px;
+    height: 197px;
+    
+}
+.pic-oneps img{
+    width: 278px;
+    height: 197px;
+}
+@media (max-width:600px){
+
+    
+    .ColorDiv{
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .logo-pic{
+        width: 50px;
+        flex: 1;
+        margin-top: 10px;
+        
+    }
+    .logo-pic1{
+     position: absolute;
+     left: 4px;
+     top: 2px;
+     display: flex;
+     flex-direction: row;
+    }
+    .Color1{
+        flex: 1;
+        height: 25px;
+        background-color: #3C1C1C;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+        gap: 40px;
+    }
+    .socials-icon img{
+        width: 15px;
+        height: 15px;
+        display: none;
+    }
+    .Color2{
+        height: 40px;
+        background-color: none;
+        display: flex;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .Color2 h4{
+        margin-left: 90px;
+        font-size: 15px;
+        display: none;
+    }
+    
+    .Flex1{
+        flex: 3;
+        
+    }
+    .Flex2{
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        margin-right: 30px;
+        
+    }
+    .pop-places{
+      
+    }
+    #pop-place{
+        width: 60px;
+    }
+   
+    .pop-places:hover{
+        background-color: #3C1C1C;
+        color: white;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text-barangay:hover{
+        background-color: #3C1C1C;
+        color: white;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Flex2 a{
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 8px;
+        color: black;
+        
+    }
+    
+    
+    
+    .Flex3{
+        flex: 1;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .img1{
+        position: absolute;
+        width: 19px;
+        right: 0;
+        flex: 1;
+    
+    }
+    
+  
+    .Flex4{
+        flex: 2;
+    }
+    .Flex4 a{
+        display: none;
+    }
+    .menu{
+        width: 20px;
+        display: inline-block;
+        margin-left: 90px;
+    }
+    
+    .Flex4 a{
+        text-decoration: none;
+        font-size: 19px;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .container{
+        position: relative;
+    }
+    .img-descriptionss{
+        position: fixed;
+        width: 650px;
+        height: 650px;
+        background-color: rgb(167, 164, 164);
+        top: 0;
+        left: 400px;
+        z-index: 200;
+        opacity: 0.80;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+    
+        
+    }
+    .open-popup{
+        position: fixed;
+        width: 650px;
+        height: 650px;
+        background-color: rgb(167, 164, 164);
+        top: 50px;
+        left: 400px;
+        z-index: 200;
+        opacity: 0.80;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+        
+    }
+    .img-descriptionss img{
+        width: 500px;
+    }
+    .img-descriptionss p{
+        color: black;
+        margin-top: 10px;
+    }
+    .icom-x{
+        position: absolute;
+        z-index: 1000;
+        right: 16px;
+        top: 15px;
+    
+    }
+    .icom-x img{
+        width: 24px;
+        
+    }
+    .img-textx{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    
+    
+    body{
+        background-color: #3C1C1C;
+    }
+    .popular-places-in-makati img{
+        position: relative;
+    }
+    
+    .popular-places-in-makati{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+       
+    }
+    .popular-places-in-makati h1{
+        font-size: 25px;
+        color: rgb(226, 156, 115);
+        margin-bottom: 27px;
+    }
+    
+    .popular-places-in-makati-imgs{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        width: 200px;
+        gap: 15px;
+    }
+    
+    .popular-places-in-makati-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 14px;
+    }
+    .popular-places-in-makati-imgs img{
+        width: 300px;
+    }
+    .fpic-size{
+        width: 200px;
+    }
+    .pic-onep-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .popular-places-in-makati-imgs-two{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .popular-places-in-makati-imgs-two img{
+        width: 10px;
+    }
+    
+    .pic-onep{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+    .pic-onep h4{
+        font-size: 2px;
+    }
+    .pic-oneps{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .pic-onep img{
+        width: 150px;
+        height: 197px;
+        
+    }
+    .pic-oneps img{
+        width: 150px;
+        height: 197px;
+    }
+    .img-descriptionss{
+        position: fixed;
+        width: 50px;
+        height: 200px;
+        background-color: rgb(167, 164, 164);
+        top: 500px;
+        left: 0;
+        z-index: 200;
+        opacity: 0.80;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+    
+        
+    }
+    .open-popup{
+        position: fixed;
+        width: 250px;
+        height: 500px;
+        background-color: rgb(167, 164, 164);
+        top: 100px;
+        left: 58px;
+        z-index: 200;
+        opacity: 0.80;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        visibility: visible;
+        
+    }
+    .img-descriptionss img{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .img-descriptionss p{
+        color: black;
+        margin-top: 10px;
+        width: 200px;
+        font-size: 12px;
+           
+    }
+    .img-descriptionss h4{
+        margin-left: 50px;
+    }
+    .icom-x{
+        position: absolute;
+        z-index: 1000;
+        right: 16px;
+        top: 15px;
+    
+    }
+    .icom-x img{
+        width: 20px;
+        margin-top: 0;
+    }
+    .img-textx{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .img-textx h1{
+        font-size: 30px;
+    }
+
+
+}
